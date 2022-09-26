@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<plugin name="stats" version="0.1" active="1">
+  <author>Jeremy Dufraisse (J9rem)</author>
+  <label>Stats</label>
+  <desc>Obtain stats about pages and entries</desc>
+</plugin>
