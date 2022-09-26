@@ -38,7 +38,7 @@ Extension [YesWiki](https://yeswiki.net/) pour avoir des statistiques sur la con
 
 ### Installation
 
-Dans la page `GererMisesAJour` de votre YesWiki, recherchez l'extension `stats` et installez-là.
+Dans la page `GererMisesAJour` de votre YesWiki, recherchez l'extension `stats` et installez-la.
 
 ### Utilisation
 
