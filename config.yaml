@@ -14,3 +14,9 @@ services:
 
   YesWiki\Stats\Service\:
     resource: 'services/*'
+
+  YesWiki\Stats\Service\ActionsBuilderService:
+    decorates: YesWiki\Aceditor\Service\ActionsBuilderService
+    decoration_on_invalid: null
+    arguments:
+      $parentActionsBuilderService: '@.inner'
