@@ -11,7 +11,13 @@
     flex-shrink: 0;
 }
 
-.word-wrap{
+.data-table-word-break{
     word-break: break-all;
-    width: 20%
+    width: 20%;
+}
+
+@media (max-width: 800px) {
+    .data-table-word-break{
+        width: 120px !important;
+    }
 }

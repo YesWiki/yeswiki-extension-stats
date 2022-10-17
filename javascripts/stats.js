@@ -152,7 +152,7 @@ let appParams = {
                             render: function ( data, type, row, meta ) {
                                 return `<a class="modalbox" data-iframe="1" data-size="modal-lg" href="${wiki.url(data+'/iframe')}" title="${data}">${data}</a>`;
                             },
-                            className: "word-wrap"
+                            className: "data-table-word-break"
                         },
                         {data:"visits",title:_t('STATS_VISITS')},
                         {data:"visitors",title:_t('STATS_VISITORS')},
