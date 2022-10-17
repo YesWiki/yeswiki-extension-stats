@@ -10,3 +10,8 @@
  .no-flex-shrink {
     flex-shrink: 0;
 }
+
+.word-wrap{
+    word-break: break-all;
+    width: 20%
+}

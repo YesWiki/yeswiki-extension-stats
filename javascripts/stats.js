@@ -151,7 +151,8 @@ let appParams = {
                             title:_t('STATS_TAG'),
                             render: function ( data, type, row, meta ) {
                                 return `<a class="modalbox" data-iframe="1" data-size="modal-lg" href="${wiki.url(data+'/iframe')}" title="${data}">${data}</a>`;
-                            }
+                            },
+                            className: "word-wrap"
                         },
                         {data:"visits",title:_t('STATS_VISITS')},
                         {data:"visitors",title:_t('STATS_VISITORS')},
@@ -180,6 +181,7 @@ let appParams = {
                     [2,'desc'],
                     [0,'desc'],
                 ],
+                "scrollX": true
             });
             this.loadEntries();
             this.loadPages();
