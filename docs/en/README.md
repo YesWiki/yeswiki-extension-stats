@@ -1,6 +1,6 @@
 # Extension stats
 
-This extension allows to follow how many times a page has been opened. 
+This extension allows to follow how many times a page has been opened the last two months. 
 
 ## Activate the extension
 
