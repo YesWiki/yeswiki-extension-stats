@@ -1,6 +1,6 @@
 # Extension stats
 
-Cette extension permet de suivre combien de fois une page a été ouverte.
+Cette extension permet de suivre combien de fois une page a été ouverte sur les deux derniers mois roulants.
 
 ## Activer l'extension
 
